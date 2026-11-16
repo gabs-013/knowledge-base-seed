@@ -5,7 +5,6 @@ description: Quando uma KB alimenta outra — o que fica, o que sobe, o que vira
 tags: [camadas, governanca, promocao]
 timestamp: 2026-06-23
 related:
-  - ../00-comece-aqui/01_perguntas-fundamentais.md
   - 04_sistema-operacional.md
 ---
 

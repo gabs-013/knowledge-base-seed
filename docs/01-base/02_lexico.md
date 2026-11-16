@@ -3,7 +3,7 @@ type: glossary
 title: Léxico
 description: Os termos próprios do objeto e o que cada um significa aqui dentro.
 tags: [lexico, glossario, linguagem]
-timestamp: 2026-06-23
+timestamp: 2026-11-16
 related:
   - 00_mapa.md
   - 03_entidades.md
@@ -11,20 +11,16 @@ related:
 
 # Léxico
 
-> Palavras que você usa de um jeito específico. Definir o léxico evita que duas pessoas (ou
-> dois agentes) entendam o mesmo termo de formas diferentes. Mantenha curto e vivo.
+### Autorreportado
+Número ou conquista declarada pelo próprio autor, sem fonte externa de verificação. Não é
+o mesmo que verificado.
 
-## Termos
+### Case study
+Projeto documentado em detalhe no portfólio, com contexto, papel e resultado.
 
-### <Termo>
-<Definição em uma ou duas frases. O que é, e — quando útil — o que NÃO é.>
+### Creator
+Criador de conteúdo com quem houve parceria de campanha. A soma de seguidores é um dado
+autorreportado do conjunto de parcerias, não um alcance garantido.
 
-### <Termo>
-<Definição.>
-
----
-
-### Exemplo (apague ao instanciar)
-
-> **KB operacional** — camada privada de leitura e direção de uma pessoa. Não confundir com a
-> **KB coletiva**, que é o conhecimento já assumido pela organização.
+### Camada operacional
+Parte privada da operação, que não entra nesta base pública.

@@ -3,37 +3,29 @@ type: thesis
 title: Tese
 description: A ideia central que organiza tudo nesta base.
 tags: [tese, fundacao]
-timestamp: 2026-06-23
+timestamp: 2026-11-16
 related:
   - 00_mapa.md
 ---
 
 # Tese
 
-> A tese é a frase que, se mudasse, mudaria tudo o que está nesta KB. Escreva-a primeiro.
-
 ## Em uma frase
 
-<A ideia central do seu objeto, em uma frase memorável.>
+Quem trabalha com comunicação digital precisa de um registro verificável e legível por máquina
+do que já fez, para que pessoas e agentes avaliem o trabalho com contexto e sem depender de
+um currículo estático.
 
 ## Por extenso
 
-<Dois ou três parágrafos: o problema que existe no mundo, a posição que você assume diante
-dele, e por que isso importa agora. Evite jargão. Escreva para alguém que chega sem contexto.>
+Currículos e páginas pessoais envelhecem rápido e não dizem como um trabalho foi feito nem o que
+ele gerou. Esta base organiza a trajetória em arquivos simples e versionados: cada experiência,
+projeto e resultado tem contexto, papel e números declarados como autorreportados. Recrutadores
+leem o conteúdo diretamente; outras IAs consultam a mesma base para responder com precisão sobre
+o perfil.
 
 ## O que decorre da tese
 
-- <consequência ou aposta 1>
-- <consequência ou aposta 2>
-- <consequência ou aposta 3>
-
----
-
-### Exemplo (apague ao instanciar)
-
-> **Em uma frase:** conhecimento durável precisa morar em arquivos simples e versionados, não
-> em plataformas que somem.
->
-> **Por extenso:** ferramentas de conhecimento mudam a cada poucos anos e levam o contexto
-> embora. Markdown em Git é portátil, diffável e legível por humanos e agentes — então
-> tratamos a KB como código: revisada por PR, com histórico e autoria.
+- Cada resultado aparece com seu contexto e com a indicação de que é autorreportado, até haver fonte externa.
+- O conteúdo público é separado do que é pessoal e privado, que nunca entra na base.
+- Atualizações chegam por PR com auditoria, para que o histórico continue confiável ao longo do tempo.

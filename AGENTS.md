@@ -32,7 +32,14 @@ diferença entre **material bruto**, **contexto de trabalho**, **decisão aprova
 - Preservar a transcrição bruta; correções relevantes vão descritas na nota derivada.
 - Atualizar primeiro a fonte canônica, depois seus derivados.
 - Trabalhar em **branch própria** (prefixo `claude/*`, `codex/*`, …) e entregar por **Pull
-  Request**, sem merge.
+  Request**.
+- **Merge automático autorizado:** agentes podem fazer merge da própria PR, desde que
+  `python3 scripts/audit-kb.py` passe sem erros e a mudança fique restrita a atualizações do
+  portfólio e do histórico profissional. Qualquer alteração fora desse escopo exige revisão humana.
+- **Dados de contato e documentos não são públicos:** nunca publicar telefone, e-mail, endereço,
+  CPF/RG, documentos pessoais (currículos em PDF, certificados com dados pessoais, contratos) ou
+  pretensão salarial. Informações de terceiros (nomes de colegas, clientes ou recrutadores) só
+  entram com consentimento explícito.
 - Declarar o modelo: trailer `Co-Authored-By:` no commit e seção "Modelo / Agente" na PR.
 - Antes de encerrar uma rodada com trabalho inacabado: atualizar log, backlog e handoff.
 - Nunca commitar segredos, dados pessoais brutos ou informação sensível.
@@ -54,7 +61,8 @@ diferença entre **material bruto**, **contexto de trabalho**, **decisão aprova
 3. Atualizar `STATE.md` se direção, gate, risco ou estado de frente mudou.
 4. Registrar log e handoff quando o trabalho precisar continuar.
 5. Rodar `python3 scripts/audit-kb.py` e revisar o diff por dados sensíveis.
-6. Abrir uma PR revisável; agentes não fazem merge sem autorização explícita.
+6. Abrir uma PR revisável. Se a mudança estiver dentro do escopo de merge automático, fazer o
+   merge após a auditoria passar; fora desse escopo, aguardar revisão humana.
 
 ## Saída mínima de uma ingestão
 

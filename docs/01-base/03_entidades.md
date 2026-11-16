@@ -1,61 +1,32 @@
 ---
 type: reference
 title: Entidades
-description: Pessoas, produtos, projetos e lugares relevantes ao objeto da KB.
-tags: [entidades, pessoas, projetos]
-timestamp: 2026-06-23
+description: Pessoas, empresas, projetos e lugares relevantes ao perfil.
+tags: [entidades, empresas, projetos]
+timestamp: 2026-11-16
 related:
   - 00_mapa.md
   - 02_lexico.md
 ---
 
-# Entidades e fontes canônicas
+# Entidades
 
-> O elenco do seu objeto. Ajuda humanos e agentes a desambiguar nomes, entender quem/o quê
-> está em jogo e localizar onde cada mudança deve ser feita.
+> Dados públicos do perfil. Nada de contato ou documento aqui.
 
-> **Atenção à privacidade:** se a base é pública ou semi-pública, não inclua dados sensíveis
-> de pessoas. Veja a regra de privacidade no seu [mapa](00_mapa.md).
+## Pessoa
 
-## Pessoas
+- **Gabriel Martins** — Social Media Lead; trabalha com estratégia, parcerias com criadores e
+  reporte para marcas de entretenimento, esporte, games e iGaming. Atua no mercado desde 2016.
 
-- **<Nome>** — <papel; o que faz; relação com o objeto>
+## Empresas
 
-## Projetos / frentes
+- **Stake Brasil** — atual. Social Media Lead.
+- **Warner Bros. Discovery** — anterior. Lançamentos e dados; social de quatro marcas (Max, TNT,
+  Warner Channel, Discovery) com reporte para LATAM.
+- **Razer** — anterior. Social de games e eventos.
+- **Mkt Virtual** — anterior. Social e campanhas com influenciadores.
+- **Marcasite Digital Agency** — início da carreira. Atendimento a 27+ clientes.
 
-- **<Projeto>** — <descrição curta; estado>
+## Projetos e marcas do portfólio
 
-## Produtos / ativos
-
-- **<Produto>** — <descrição curta>
-
-## Contrato para entidades operacionais
-
-Quando uma entidade tem repo, operação própria ou aparece em mais de uma base, registre:
-
-| Campo | Pergunta que responde |
-| --- | --- |
-| `nature` | é projeto, produto, empresa, formação, superfície ou laboratório? |
-| `origin` | onde nasceu? |
-| `owner` | quem decide hoje? |
-| `canonical_repo` | onde mudanças devem entrar? |
-| `mirrors_or_forks` | quais cópias ou derivados existem? |
-| `stage` | em que estágio está? |
-| `next_gate` | qual decisão ou evidência permite avançar? |
-
-Exemplo:
-
-```yaml
-- name: <Nome da entidade>
-  nature: projeto
-  origin: <base ou organização de origem>
-  owner: <responsável>
-  canonical_repo: <URL ou caminho>
-  mirrors_or_forks: []
-  stage: active
-  next_gate: <marco verificável>
-```
-
-Ter pasta, site ou fork não define ownership. Se duas bases mencionam a mesma entidade, uma
-delas deve ser canônica e as demais devem apontar para ela. Veja
-[interoperabilidade entre bases](../09-operacao/06_interoperabilidade-entre-bases.md).
+Veja [portfólio](../02-conteudo/portfolio/00_mapa.md).
